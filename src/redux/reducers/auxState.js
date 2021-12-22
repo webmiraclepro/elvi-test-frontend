@@ -6,4 +6,4 @@ const actionHandler = {
   [ActionTypes.SET_ALERT]: auxStateUpdaters.setAlertUpdater,
 };
 
-export default handleActions(actionHandler, auxStateUpdaters.INIT_MAIN_STATE);
+export default handleActions(actionHandler, auxStateUpdaters.INIT_AUX_STATE);

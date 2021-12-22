@@ -1,4 +1,4 @@
-export const INIT_MAIN_STATE = Object.freeze({
+export const INIT_AUX_STATE = Object.freeze({
   alert: {
     type: null,
     message: null,
